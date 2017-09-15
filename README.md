@@ -151,7 +151,7 @@ Adding your own contributions to our workshop webpage
 # Git Activity
 ### Modify file
 
-6. Naviagte to the docs folder and open index.html in a text editor.
+6. Navigate to the docs folder and open index.html in a text editor.
 
 7. Add your own name and program in a h3 tag in the middle of the body tag i.e. ```<h3>Jacky - Software Engineering </h3>```
 
@@ -160,17 +160,31 @@ Adding your own contributions to our workshop webpage
 ---
 
 # Git Activity
-## Commit
+### Commit
+
+9. Navigate, in your command line, to the directory you saved your index.html file in.
+
+10. Run ```git status```. Anything in red will be changes you've made that haven't been tracked yet. To start tracking things, you will need to move the file to the staging area.
+
+11. Run ```git add index.html```, and then run ```git status``` to see if your file has been added. If you have done things correctly, your filename should be a green colour now, meaning that it is now being tracked by git.
+
+12. Run ```git commit -m "Commit Message"``` to commit your file.
+
+13. Running ```git status``` again should confirm that you have committed your file successfully.
 
 ---
 
 # Git Activity
-## Push
+### Push
+
+14. Now that you've made changes locally, you should now update the remote repository. To do so, run ```git push --set-upstream origin master```.
 
 ---
 
 # Git Activity
-## Pull Request
+### Pull Request
+
+15. Say another member of your group makes changes to the code and you want these in your local repo. You have to "pull" them from the remote repo. To do this, run ```git pull```.
 
 ---
 [git-site]:  ./.github/git-site.png "Git Source Control Management Website"
